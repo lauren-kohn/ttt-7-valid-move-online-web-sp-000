@@ -1,9 +1,9 @@
 # code your #valid_move? method here
 
 def valid_move?(board, index)
-  if position_taken?()
-    
-
+  if board[index] >=0 && board[index] <= 8 && position_taken?() == false
+    true
+  end
 end
 
 
